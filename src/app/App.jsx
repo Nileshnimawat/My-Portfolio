@@ -18,7 +18,6 @@ import { BsFacebook, BsGit, BsPuzzle } from "react-icons/bs";
 import { TbBrandCpp } from "react-icons/tb";
 import { FaMobileAlt } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
-import { SiTypescript, SiRecoil, SiReactquery } from "react-icons/si";
 
 //import images
 import Ataa from '../assets/images/Ataa.png';
@@ -188,9 +187,6 @@ function App() {
 					<a className={style.gmail} target="_blank" href="mailto:nileshnimawat121@gmail.com?subject=SendMail&body=Description" >
 						<BiLogoGmail size="30px" color='black' />
 					</a>
-					{/* <a className={style.facebook} target="_blank" href='https://www.facebook.com/ibrahim.hiarea' >
-						<BsFacebook size="30px" color='black' />
-					</a> */}
 				</div>
 			</div>
 
@@ -346,9 +342,6 @@ function App() {
 								<a className={style.gmail} target="_blank" href="mailto:nileshnimawat121@gmail.com?subject=SendMail&body=Description" >
 									<BiLogoGmail size="30px" color='white' />
 								</a>
-								{/* <a className={style.facebook} target="_blank" href='https://www.facebook.com/ibrahim.hiarea' >
-									<BsFacebook size="30px" color='white' />
-								</a> */}
 							</div>
 						</div>
 					</div>
