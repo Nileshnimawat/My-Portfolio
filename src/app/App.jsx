@@ -24,6 +24,9 @@ import {
   BiLogoJavascript,
   BiLogoRedux,
   BiLogoJava,
+  BiLogoNodejs,
+  BiLogoMongodb,
+  BiLogo
 } from "react-icons/bi";
 import { BsFacebook, BsGit, BsPuzzle } from "react-icons/bs";
 import { TbBrandCpp } from "react-icons/tb";
@@ -88,6 +91,21 @@ const skills = [
     name: "Problem Solving",
     icon: <BsPuzzle size="25px" color="white" />,
     cssName: "problem-solving",
+  },
+  {
+    name: "Node",
+    icon: <BiLogoNodejs size="25px" color="white" />,
+    cssName: "node",
+  },
+  {
+    name: "Express",
+    icon: <BiLogoNodejs size="25px" color="white" />,
+    cssName: "express",
+  },
+  {
+    name: "MongoDB",
+    icon: <BsPuzzle size="25px" color="white" />,
+    cssName: "mongodb",
   },
 ];
 
