@@ -220,9 +220,7 @@ function App() {
         <div className={style["home-content"]}>
           <h1>HEY, I'M Nilesh Nimawat</h1>
           <p>
-            A Frontend focused Web Developer building the Frontend of Websites
-            and Web Applications that leads to the success of the overall
-            product
+            A MERN Stack Developer building full-stack Websites and Web Applications with a focus on creating seamless user experiences and robust backend functionality, contributing to the success of the overall product.
           </p>
           <a
             href={cv}
