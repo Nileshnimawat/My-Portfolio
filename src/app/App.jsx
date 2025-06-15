@@ -127,7 +127,7 @@ const projects = [
     image: Ataa,
   },
   {
-    name: "Real time soscial media",
+    name: "Real time social media",
     link: "https://twitter-lite-frontend.vercel.app/",
     github: "https://github.com/Nileshnimawat?tab=repositories",
     description:
