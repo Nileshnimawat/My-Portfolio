@@ -32,12 +32,12 @@ import { SiMongodb, SiExpress } from "react-icons/si";
 import { RiSendPlaneFill } from "react-icons/ri";
 
 // Images
-import Ataa from "../assets/images/Ataa.png";
+// import Ataa from "../assets/images/Ataa.png";
 import GlobalShare from "../assets/images/GlobalShare.png";
-import elzero from "../assets/images/elzero.png";
-import Kasper from "../assets/images/Kasper.png";
-import Leon from "../assets/images/Leon.png";
-import twitterLogo from "../assets/images/logo.jpg";
+
+// import Kasper from "../assets/images/Kasper.png";
+// import Leon from "../assets/images/Leon.png";
+// import twitterLogo from "../assets/images/logo.jpg";
 
 // Components
 import Navbar from "./Navbar";
