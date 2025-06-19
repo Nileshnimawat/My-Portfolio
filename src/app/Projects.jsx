@@ -1,22 +1,13 @@
 import React from 'react'
 // import style
 import style from "./App.module.css";
-import clsx from "clsx";
+
 
 import {
   AiFillGithub,
-  AiFillLinkedin,
-  AiFillHtml5,
   AiOutlineEye,
 } from "react-icons/ai";
 
-//import images
-import Ataa from "../assets/images/Ataa.png";
-import GlobalShare from "../assets/images/GlobalShare.png";
-import elzero from "../assets/images/elzero.png"
-import Kasper from "../assets/images/Kasper.png"
-import Leon from "../assets/images/Leon.png"
-import twitterLogo from "../assets/images/logo.jpg";
 
 import IconButton from "../common/components/IconButton/IconButton";
 
