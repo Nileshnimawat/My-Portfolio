@@ -82,7 +82,7 @@ export const projects = [
   },
 
   {
-    name: "Spotify Working Clone",
+    name: "Levi Music Player",
     link: "https://frontend-levi-music.vercel.app/",
     github: "https://github.com/Nileshnimawat/Frontend_levi_music_player",
      github2: "https://github.com/Nileshnimawat/Backend_Levi_Music_Player",
