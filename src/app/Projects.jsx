@@ -63,8 +63,18 @@ const Projects = () => {
                         link={project.github}
                         icon={<AiFillGithub size="25px" color="white" />}
                       >
-                        Github
+                        Github 
                       </IconButton>
+                     { project?.github2 && <IconButton
+                        width="100px"
+                        height="50px"
+                        backgroundColor="black"
+                        color="white"
+                        link={project.github2}
+                        icon={<AiFillGithub size="25px" color="white" />}
+                      >
+                        Backend
+                      </IconButton>}
                     </div>
                   </div>
                 </div>
