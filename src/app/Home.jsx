@@ -64,13 +64,6 @@ const Home = () => {
             <AiFillGithub size="30px" color="black" />
           </a>
           <a
-            className={style.linkedin}
-            target="_blank"
-            href="https://www.linkedin.com/"
-          >
-            <AiFillLinkedin size="30px" color="black" />
-          </a>
-          <a
             className={style.gmail}
             target="_blank"
             href="mailto:nileshnimawat121@gmail.com?subject=SendMail&body=Description"
