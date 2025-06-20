@@ -1,21 +1,10 @@
 import React from 'react'
 import {
   BiLogoGmail,
-  BiLogoCss3,
-  BiLogoJavascript,
-  BiLogoRedux,
-  BiLogoJava,
-  BiLogoNodejs,
-  BiLogoMongodb,
-
-  
 } from "react-icons/bi";
 
 import {
   AiFillGithub,
-  AiFillLinkedin,
-  AiFillHtml5,
-  AiOutlineEye,
 } from "react-icons/ai";
 
 import DownloadButton from "../common/components/DownloadButton/DownloadButton";
