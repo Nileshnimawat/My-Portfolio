@@ -87,7 +87,7 @@ export const projects = [
     github: "https://github.com/Nileshnimawat/Frontend_levi_music_player",
      github2: "https://github.com/Nileshnimawat/Backend_Levi_Music_Player",
     description:
-      "Built a full-stack Levi music player using the MERN stack (MongoDB, Express.js, React, Node.js) with a modern and responsive UI. Implemented user authentication using JWT, enabling users to register, log in, and manage their accounts. Users can upload and play music files, create and manage playlists, like or unlike songs. The frontend was built with React and Tailwind CSS, Shadcn while Node.js and Express handled the backend APIs. MongoDB was used to store user data, playlists, and song metadata. Integrated secure file upload,  and protected routes to deliver a personalized experience. a frontend clone of Spotify with modern UI and video support using React and Tailwind CSS.",
+      "Built a full-stack Levi Music Player using the MERN stack (MongoDB, Express.js, React, Node.js) with a modern and responsive UI. Implemented secure user authentication using JWT, allowing users to register, log in, and manage their accounts. Users can upload and play music, create and manage playlists, and like or unlike songs. Integrated real-time room-based communication using Socket.IO, where the room owner controls synchronized music playback for all connected users. Developed persistent room chats using Redis and MongoDB, enabling message retention across sessions. Utilized Cloudinary for secure audio uploads and implemented protected routes to ensure personalized access. The frontend was built with React, Tailwind CSS, and Shadcn UI for a seamless user experience.",
     image: GlobalShare,
   },
   // {
