@@ -96,7 +96,7 @@ export const projects = [
   github: "https://github.com/Nileshnimawat/Ai-website-builder",
   description:
     "Full-stack AI-driven website builder utilizing Gemini API to generate component-level code from natural language prompts. Implemented using Next.js (App Router), TypeScript, Tailwind CSS, shadcn/ui, Prisma ORM, and MongoDB with Sandpack for real-time previewing.",
-  image: Ataa,
+  image: GlobalShare,
 },
 {
   name: "Freelance Project: UBPL Business Website",
@@ -104,7 +104,7 @@ export const projects = [
   github: null, // or private repo
   description:
     "Developed a responsive business website for Utishta Bharata Pvt. Ltd. (UBPL), including custom UI components, SEO optimization, and stakeholder-driven revisions. Built with React and Tailwind CSS and deployed for production use.",
-  image: Ataa, // optional
+  image: GlobalShare, // optional
 }
 
 
