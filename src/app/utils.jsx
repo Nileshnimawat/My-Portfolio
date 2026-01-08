@@ -90,15 +90,24 @@ export const projects = [
       "Built a full-stack Levi Music Player using the MERN stack (MongoDB, Express.js, React, Node.js) with a modern and responsive UI. Implemented secure user authentication using JWT, allowing users to register, log in, and manage their accounts. Users can upload and play music, create and manage playlists, and like or unlike songs. Integrated real-time room-based communication using Socket.IO, where the room owner controls synchronized music playback for all connected users. Developed persistent room chats using Redis and MongoDB, enabling message retention across sessions. Utilized Cloudinary for secure audio uploads and implemented protected routes to ensure personalized access. The frontend was built with React, Tailwind CSS, and Shadcn UI for a seamless user experience.",
     image: GlobalShare,
   },
-  // {
-  //   name: "Mini Project: Currency Converter",
-  //   link: "https://currency-generator-pi.vercel.app/",
-  //   github: "https://github.com/Nileshnimawat/currency-generator",
-   
-  //   description:
-  //     "Developed a responsive app for real-time currency conversion using a live exchange rate API with React and Tailwind CSS.",
-  //   image: Ataa,
-  // },
+{
+  name: "AI Website Builder",
+  link: "https://ai-website-builder-sable-eta.vercel.app/",
+  github: "https://github.com/Nileshnimawat/Ai-website-builder",
+  description:
+    "Full-stack AI-driven website builder utilizing Gemini API to generate component-level code from natural language prompts. Implemented using Next.js (App Router), TypeScript, Tailwind CSS, shadcn/ui, Prisma ORM, and MongoDB with Sandpack for real-time previewing.",
+  image: Ataa,
+},
+{
+  name: "Freelance Project: UBPL Business Website",
+  link: "https://www.utishtabpl.com/", // remove if not public
+  github: null, // or private repo
+  description:
+    "Developed a responsive business website for Utishta Bharata Pvt. Ltd. (UBPL), including custom UI components, SEO optimization, and stakeholder-driven revisions. Built with React and Tailwind CSS and deployed for production use.",
+  image: Ataa, // optional
+}
+
+
 ];
 
 // Export Skills List

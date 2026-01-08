@@ -22,7 +22,7 @@ const Home = () => {
         <div className={style["home-content"]}>
           <h1>HEY, I'M Nilesh Nimawat</h1>
           <p>
-            A MERN Stack Developer building full-stack Websites and Web Applications with a focus on creating seamless user experiences and robust backend functionality, contributing to the success of the overall product.
+            A Full Stack Developer building full-stack Websites and Web Applications with a focus on creating seamless user experiences and robust backend functionality, contributing to the success of the overall product.
           </p>
           <a
             href={cv}

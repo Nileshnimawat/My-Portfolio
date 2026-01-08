@@ -31,9 +31,7 @@ const Footer = () => {
                   <div>
                     <h3>Nilesh Nimawat</h3>
                     <p>
-                      A MERN Stack Web Developer building full-stack Websites and Web
-                      Applications with a strong focus on both Frontend and Backend
-                      development, contributing to the overall success of the product.
+                      A Full Stack Developer working with MERN, Next.js, and TypeScript to create real-time, AI-powered web applications—combining responsive frontend interfaces with scalable backend APIs and clean architecture.
                     </p>
                   </div>
                   <div className={style.social}>
