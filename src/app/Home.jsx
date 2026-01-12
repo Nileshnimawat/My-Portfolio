@@ -1,10 +1,12 @@
 import React from 'react'
 import {
   BiLogoGmail,
+  BiLogoLinkedin,
 } from "react-icons/bi";
 
 import {
   AiFillGithub,
+  AiFillLinkedin,
 } from "react-icons/ai";
 
 import DownloadButton from "../common/components/DownloadButton/DownloadButton";
@@ -51,6 +53,13 @@ const Home = () => {
             href="https://github.com/Nileshnimawat"
           >
             <AiFillGithub size="30px" color="black" />
+          </a>
+           <a
+            className={style.linkedin} 
+            target="_blank"
+            href="https://www.linkedin.com/in/nilesh-nimawat-089746257"
+          >
+            <AiFillLinkedin size="30px" color="black" />
           </a>
           <a
             className={style.gmail} 

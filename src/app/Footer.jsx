@@ -47,7 +47,7 @@ const Footer = () => {
                       <a
                         className={style.linkedin}
                         target="_blank"
-                        href="https://www.linkedin.com"
+                        href="https://www.linkedin.com/in/nilesh-nimawat-089746257"
                       >
                         <AiFillLinkedin size="30px" color="white" />
                       </a>

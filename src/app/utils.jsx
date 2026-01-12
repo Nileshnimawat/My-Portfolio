@@ -12,12 +12,8 @@ import Loader from "../common/components/Loader/Loader";
 import cv from "../common/components/Resume/resume.pdf";
 
 // Icons
-import { FaReact, FaMobileAlt } from "react-icons/fa";
-import {
-  AiFillHtml5,
-  AiFillGithub,
-  AiFillLinkedin,
-} from "react-icons/ai";
+import { FaReact, FaMobileAlt, FaUserShield } from "react-icons/fa";
+import { AiFillHtml5, AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import {
   BiLogoGmail,
   BiLogoCss3,
@@ -25,17 +21,19 @@ import {
   BiLogoRedux,
   BiLogoJava,
   BiLogoNodejs,
+  BiLogoTypescript,
+  BiLogoGithub,
 } from "react-icons/bi";
 import { BsGit, BsPuzzle } from "react-icons/bs";
 import { TbBrandCpp } from "react-icons/tb";
-import { SiMongodb, SiExpress } from "react-icons/si";
+import { SiMongodb, SiExpress, SiNextdotjs, SiNetlify, SiRender, SiVercel, SiPostman, SiPrisma, SiSocketdotio, SiRedis, SiTailwindcss, SiRailway } from "react-icons/si";
 import { RiSendPlaneFill } from "react-icons/ri";
 
 // Images
 // import Ataa from "../assets/images/Ataa.png";
 import GlobalShare from "../assets/images/GlobalShare.png";
 
-// import Kasper from "../assets/images/Kasper.png";
+ import levi from "../assets/images/levi.png";
 // import Leon from "../assets/images/Leon.png";
 // import twitterLogo from "../assets/images/logo.jpg";
 
@@ -85,32 +83,31 @@ export const projects = [
     name: "Levi Music Player",
     link: "https://frontend-levi-music.vercel.app/",
     github: "https://github.com/Nileshnimawat/Frontend_levi_music_player",
-     github2: "https://github.com/Nileshnimawat/Backend_Levi_Music_Player",
+    github2: "https://github.com/Nileshnimawat/Backend_Levi_Music_Player",
     description:
       "Built a full-stack Levi Music Player using the MERN stack (MongoDB, Express.js, React, Node.js) with a modern and responsive UI. Implemented secure user authentication using JWT, allowing users to register, log in, and manage their accounts. Users can upload and play music, create and manage playlists, and like or unlike songs. Integrated real-time room-based communication using Socket.IO, where the room owner controls synchronized music playback for all connected users. Developed persistent room chats using Redis and MongoDB, enabling message retention across sessions. Utilized Cloudinary for secure audio uploads and implemented protected routes to ensure personalized access. The frontend was built with React, Tailwind CSS, and Shadcn UI for a seamless user experience.",
     image: GlobalShare,
   },
-{
-  name: "AI Website Builder",
-  link: "https://ai-website-builder-sable-eta.vercel.app/",
-  github: "https://github.com/Nileshnimawat/Ai-website-builder",
-  description:
-    "Full-stack AI-driven website builder utilizing Gemini API to generate component-level code from natural language prompts. Implemented using Next.js (App Router), TypeScript, Tailwind CSS, shadcn/ui, Prisma ORM, and MongoDB with Sandpack for real-time previewing.",
-  image: GlobalShare,
-},
-{
-  name: "Freelance Project: UBPL Business Website",
-  link: "https://www.utishtabpl.com/", // remove if not public
-  github: null, // or private repo
-  description:
-    "Developed a responsive business website for Utishta Bharata Pvt. Ltd. (UBPL), including custom UI components, SEO optimization, and stakeholder-driven revisions. Built with React and Tailwind CSS and deployed for production use.",
-  image: GlobalShare, // optional
-}
-
-
+  {
+    name: "AI Website Builder",
+    link: "https://ai-website-builder-sable-eta.vercel.app/",
+    github: "https://github.com/Nileshnimawat/Ai-website-builder",
+    description:
+      "Full-stack AI-driven website builder utilizing Gemini API to generate component-level code from natural language prompts. Implemented using Next.js (App Router), TypeScript, Tailwind CSS, shadcn/ui, Prisma ORM, and MongoDB with Sandpack for real-time previewing.",
+    image: GlobalShare,
+  },
+  {
+    name: "Freelance Project: UBPL Business Website",
+    link: "https://www.utishtabpl.com/", // remove if not public
+    github: null, // or private repo
+    description:
+      "Developed a responsive business website for Utishta Bharata Pvt. Ltd. (UBPL), including custom UI components, SEO optimization, and stakeholder-driven revisions. Built with React and Tailwind CSS and deployed for production use.",
+    image: GlobalShare, // optional
+  },
 ];
 
 // Export Skills List
+
 export const skills = [
   {
     name: "HTML 5",
@@ -128,9 +125,20 @@ export const skills = [
     cssName: "javascript",
   },
   {
+    name: "TypeScript",
+    icon: <BiLogoTypescript size="25px" color="white" />,
+    cssName: "typescript",
+  },
+
+  {
     name: "React",
     icon: <FaReact size="25px" color="white" />,
     cssName: "react",
+  },
+  {
+    name: "Next.js",
+    icon: <SiNextdotjs size="25px" color="white" />,
+    cssName: "nextjs",
   },
   {
     name: "Redux Toolkit",
@@ -138,30 +146,11 @@ export const skills = [
     cssName: "redux",
   },
   {
-    name: "Responsive Design",
-    icon: <FaMobileAlt size="25px" color="white" />,
-    cssName: "responsive",
+    name: "Tailwind CSS",
+    icon: <SiTailwindcss size="25px" color="white" />,
+    cssName: "tailwind",
   },
-  {
-    name: "Git",
-    icon: <BsGit size="25px" color="white" />,
-    cssName: "git",
-  },
-  {
-    name: "Java",
-    icon: <BiLogoJava size="25px" color="white" />,
-    cssName: "java",
-  },
-  {
-    name: "C++",
-    icon: <TbBrandCpp size="25px" color="white" />,
-    cssName: "cpp",
-  },
-  {
-    name: "Problem Solving",
-    icon: <BsPuzzle size="25px" color="white" />,
-    cssName: "problem-solving",
-  },
+
   {
     name: "Node.js",
     icon: <BiLogoNodejs size="25px" color="white" />,
@@ -176,5 +165,84 @@ export const skills = [
     name: "MongoDB",
     icon: <SiMongodb size="25px" color="white" />,
     cssName: "mongodb",
+  },
+  {
+    name: "Redis",
+    icon: <SiRedis size="25px" color="white" />,
+    cssName: "redis",
+  },
+  {
+    name: "Socket.IO",
+    icon: <SiSocketdotio size="25px" color="white" />,
+    cssName: "socket",
+  },
+  
+  {
+    name: "JWT Auth",
+    icon: <FaUserShield size="25px" color="white" />,
+    cssName: "jwt",
+  },
+
+  {
+    name: "Prisma ORM",
+    icon: <SiPrisma size="25px" color="white" />,
+    cssName: "prisma",
+  },
+
+
+  {
+    name: "Responsive Design",
+    icon: <FaMobileAlt size="25px" color="white" />,
+    cssName: "responsive",
+  },
+
+  { name: "Git", icon: <BsGit size="25px" color="white" />, cssName: "git" },
+  {
+    name: "GitHub",
+    icon: <BiLogoGithub size="25px" color="white" />,
+    cssName: "github",
+  },
+  {
+    name: "Postman",
+    icon: <SiPostman size="25px" color="white" />,
+    cssName: "postman",
+  },
+
+  {
+    name: "Vercel",
+    icon: <SiVercel size="25px" color="white" />,
+    cssName: "vercel",
+  },
+  {
+    name: "Netlify",
+    icon: <SiNetlify size="25px" color="white" />,
+    cssName: "netlify",
+  },
+  {
+    name: "Render",
+    icon: <SiRender size="25px" color="white" />,
+    cssName: "render",
+  },
+  {
+    name: "Railway",
+    icon: <SiRailway size="25px" color="white" />,
+    cssName: "railway",
+  },
+
+  {
+    name: "Java",
+    icon: <BiLogoJava size="25px" color="white" />,
+    cssName: "java",
+  },
+  {
+    name: "C++",
+    icon: <TbBrandCpp size="25px" color="white" />,
+    cssName: "cpp",
+  },
+
+  {
+    name: "Problem Solving",
+    icon: <BsPuzzle size="25px" color="white" />,
+    cssName: "problem-solving",
   },
 ];
